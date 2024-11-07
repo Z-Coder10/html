@@ -1,0 +1,123 @@
+Profile Image
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Landing page</title>
+
+</head>
+
+<style>
+
+body {
+
+text-align: center;
+
+}
+
+nav {
+
+background-color: #e6e6e6;
+
+padding: 10px;
+
+}
+
+ul {
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+overflow: hidden;
+
+}
+
+li {
+
+float: left;
+
+}
+
+li a {
+
+display: block;
+
+text-align: center;
+
+padding: 14px 16px;
+
+text-decoration: none;
+
+}
+
+li a:hover {
+
+background-color: rgb(219, 130, 130);
+
+}
+
+</style>
+
+<body>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<h2>Interesting Information</h2>
+
+<img src="tiger.jpeg" />
+
+<br />
+
+<button onclick="tiger();">Read More!</button>
+
+<p id="tiger-info"></p>
+
+<img src="1234567890.jpg" />
+
+<br />
+
+<button onclick="lion();">Read More!</button>
+
+<p id="lion-info"></p>
+
+<script>
+
+function tiger() {
+
+document.getElementById("tiger-info").innerHTML =
+
+"The tiger (Panthera tigris) is the largest extant cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar.";
+
+}
+
+function lion() {
+
+document.getElementById("lion-info").innerHTML =
+
+"The lion (Panthera leo) is a species in the family Felidae and a member of the genus Panthera. It has a muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail.";
+
+}
+
+</script>
+
+</body>
+
+</html>
