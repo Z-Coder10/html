@@ -1,0 +1,25 @@
+.pimg3{
+
+    background-image: url("1234567890.jpg");
+    
+    position: relative;
+    
+    opacity: 0.70;
+    
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    
+    min-height: 400px;
+    
+    }
+    
+    .section{
+
+        text-align: center;
+
+        padding: 50px 80px;
+        background-color: aquamarine;
+    }
