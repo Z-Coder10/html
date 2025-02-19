@@ -19,4 +19,6 @@ class Button():
                 pygame.init()
                 self.screen = pygame.display.set_mode((960,640))
                 pygame.display.set_caption('RPS Smasher')
-                
+                self.by = pygame.image.load('Rps Smasher')
+                self.bg = pygame.image.load("bg.png")
+                self.r_btn = pygame.image.load('r_btn.png').convert_alpha()
