@@ -34,4 +34,4 @@ function deleteElement(ElementToDelete){
 
 ElementToDelete.parentElement.remove()
 
-}
+}clock
