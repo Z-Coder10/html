@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#dice{
+    font-size: 320px;
+    color: beige;
+}
+#dice:hover{
+    cursor:  pointer;
+}
