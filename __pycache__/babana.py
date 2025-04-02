@@ -1,5 +1,4 @@
-student =[
-    "name":"David"
+student= [
     "age" :"11"
     "grade":"Jss1"
 ]
