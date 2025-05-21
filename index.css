@@ -425,6 +425,6 @@ grid-template-columns: auto auto auto auto auto;
 grid-template-areas:"header header header header intro"
 "nav nav nav nav intro"
 "main-section mainsection mainsection mainsection bestsellers"
-"footer footer footer footer footer"      
+"footer footer footer footer footermy_list"      
 ;    
 }
