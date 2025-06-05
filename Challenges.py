@@ -1,9 +1,9 @@
 import random
 print("Welcome to the number guessing game")
 print("I'm thinking of a number between 1 and 100")
-print("You have 7 tries to guess the number.Good Luck!!!\n")
+print("You have 10 tries to guess the number.Good Luck!!!\n")
 number = random.randint(1,100)
-tries = 7
+tries = 100
 while tries >0:
     try:
         guess = int(input("Take a guess: "))
